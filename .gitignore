@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Local environment and secrets
+.env
+.env.*
+*.secret
+*.secrets
+*.token
+*.tokens
+credentials/
+secrets/
+
+# Local databases and runtime state
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+runtime/
+cache/
+logs/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary / local backup files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*~
